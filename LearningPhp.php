@@ -2,14 +2,13 @@
 <html>
 <body>
 
-<?php  
-$x = 1;
- 
-while($x <= 5) {
-  echo "The number is: $x <br>";
-  $x++;
-} 
-?>  
+<?php
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
+?>
 
 </body>
 </html>
